@@ -64,7 +64,7 @@ mv ElCapitan3.iso.cdr ElCapitan3.iso
 ## Part 3 - Installing / Using VirtualBox
 ### This will be the main VM software we will use. 
 
-1)<a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Install VirtualBox</a>
+1) <a href="https://www.virtualbox.org/wiki/Downloads" target="_blank">Install VirtualBox</a>
 
 
 2) Click New, and create a new VM machine with Mac OS, and El Capitan as the operating system. 
