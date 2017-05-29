@@ -3,6 +3,8 @@ Creating a virtual computer using El Capitan OSX.
 
 
 ## Part 1 - Install OSX El Capitan, 
+### We need this so VirtualBox can have a operating system. 
+
 
 1) Go into Apples App Store, and go to Downloads. Find the OSX, and download it again.
 
@@ -58,4 +60,27 @@ hdiutil convert ElCapitan3.dmg -format UDTO -o ElCapitan3.iso
 
 l)
 mv ElCapitan3.iso.cdr ElCapitan3.iso
+
+## Part 3 - Installing / Using VirtualBox
+### This will be the main VM software we will use. 
+
+1) Install Virtual Box. 
+
+2) Click New, and create a new VM machine with Mac OS, and El Capitan as the operating system. 
+
+3) Go into settings --> Click on the disk image file. ---> Select ElCapitan3.iso. 
+
+4) Start the virtual machine. 
+
+
+## Part 4 - Starting VirtualBox with Mac OS. 
+### When you start, you may face an issue that says -- 'There is not enough free space for Base OSX to install.'
+#### Here is how to fix that. 
+
+1) Erase VBOX HARDDISK, and Rename new disk 'UsableDisk'.
+
+2) Click on "UsableDisk" as the hard drive to use. 
+
+3) Everything should work fine now. 
+
 
