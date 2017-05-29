@@ -13,7 +13,8 @@ Creating a virtual computer using El Capitan OSX.
 ### The purpose of these snippets are to get a .iso image for use in VirtualBox. 
 
 
-a)hdiutil attach "/Applications/Install OS X El Capitan.app/Contents/SharedSupport/InstallESD.dmg" -noverify -nobrowse -mountpoint /Volumes/esd
+a)
+hdiutil attach "/Applications/Install OS X El Capitan.app/Contents/SharedSupport/InstallESD.dmg" -noverify -nobrowse -mountpoint /Volumes/esd
 
 b)
 hdiutil create -o ElCapitan3 -size 7316m -layout SPUD -fs HFS+J
